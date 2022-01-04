@@ -18,3 +18,20 @@
   text-decoration: none;
   color: rgb(76, 55, 82);
 }
+
+@media (min-width: 700px) {
+  main {
+    margin: 10%;
+  }
+  #first_section .col1 {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    gap: 2%;
+    margin-block-start: 5%;
+  }
+  #first_section .col2 {
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    gap: 2%;
+  }
+}
