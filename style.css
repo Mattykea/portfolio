@@ -3,6 +3,10 @@ main {
   margin-inline: 5%;
 }
 
+* {
+  background: black;
+}
+
 img {
   max-width: 100%;
 }
@@ -11,22 +15,44 @@ h1,
 h2,
 h3 {
   font-family: "Economica", sans-serif;
+  color: white;
 }
 
 p,
 a {
   font-family: "Raleway", sans-serif;
+  color: white;
 }
 
 /* header */
 .banner {
-  background: #5000ca22;
-  padding: 2rem;
+  background: #000000;
+  padding: 5%;
 }
 
 .banner ul {
   list-style: none;
   padding: 0;
+}
+
+.banner a {
+  padding: 1%;
+  border-radius: 0.5rem;
+}
+
+.banner a:hover {
+  background-color: #bbbbbb;
+  color: #000000;
+}
+
+.logo a {
+  float: inline-end;
+  padding: 1%;
+  border-radius: 0.5rem;
+}
+
+button {
+  color: white;
 }
 
 /* burgermenu */
@@ -37,7 +63,7 @@ a {
 header a {
   list-style: none;
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 @media (max-width: 600px) {
