@@ -7,10 +7,14 @@
   padding-bottom: 8px;
   overflow-x: auto;
   justify-content: space-evenly;
+  position: sticky;
+  top: 0%;
+  background-color: #e7dafc;
+  padding: 1.5%;
 }
 
 .links a {
   list-style: none;
   text-decoration: none;
-  color: black;
+  color: rgb(76, 55, 82);
 }
