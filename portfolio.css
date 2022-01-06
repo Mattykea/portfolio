@@ -34,4 +34,17 @@
     grid-template-columns: 1fr 1.8fr;
     gap: 2%;
   }
+
+  #second_section .col1,
+  .col2 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 2%;
+  }
+
+  #third_section .col {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2%;
+  }
 }
