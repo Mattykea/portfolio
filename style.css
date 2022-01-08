@@ -7,19 +7,23 @@ main {
   background: black;
 }
 
-img {
+img,
+video {
   max-width: 100%;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "Economica", sans-serif;
   color: white;
 }
 
 p,
-a {
+a,
+li,
+figcaption {
   font-family: "Raleway", sans-serif;
   color: white;
 }
@@ -46,7 +50,7 @@ a {
   color: #000000;
 }
 
-.logo a {
+.logo {
   float: inline-end;
   padding: 1%;
   border-radius: 0.5rem;
