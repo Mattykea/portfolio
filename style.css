@@ -7,6 +7,17 @@ main {
   background: black;
 }
 
+.col,
+.col1,
+.col2,
+.col3,
+picture,
+.forside,
+.scrum,
+.tests {
+  background-color: transparent;
+}
+
 img,
 video {
   max-width: 100%;
@@ -17,7 +28,8 @@ h2,
 h3,
 h4 {
   font-family: "Economica", sans-serif;
-  color: white;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
 }
 
 p,
@@ -26,6 +38,7 @@ li,
 figcaption {
   font-family: "Raleway", sans-serif;
   color: white;
+  background-color: transparent;
 }
 
 /* header */

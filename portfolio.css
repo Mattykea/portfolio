@@ -13,12 +13,71 @@
   padding: 1.5%;
 }
 
-.links a {
+.links a,
+.en,
+.to,
+.tre,
+.fire,
+.fem {
   list-style: none;
   text-decoration: none;
   color: rgb(255, 255, 255);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 
+.links .en:hover {
+  background-color: rgba(110, 228, 218, 0.164);
+  color: #ffffff;
+}
+
+.links .to:hover {
+  background-color: rgba(185, 110, 228, 0.164);
+  color: #ffffff;
+}
+
+.links .tre:hover {
+  background-color: rgba(110, 141, 228, 0.164);
+  color: #ffffff;
+}
+
+.links .fire:hover {
+  background-color: rgba(228, 110, 149, 0.164);
+  color: #ffffff;
+}
+/*MANGLER*/
+.links .fem:hover {
+  background-color: rgba(110, 141, 228, 0.164);
+  color: #ffffff;
+}
+
+#first_section {
+  padding: 2%;
+  background: rgba(110, 228, 218, 0.164);
+  border-radius: 0.5rem;
+  margin-bottom: 2%;
+}
+
+#second_section {
+  padding: 2%;
+  background: rgba(185, 110, 228, 0.164);
+  border-radius: 0.5rem;
+  margin-bottom: 2%;
+}
+
+#third_section {
+  padding: 2%;
+  background: rgba(110, 141, 228, 0.164);
+  border-radius: 0.5rem;
+  margin-bottom: 2%;
+}
+
+#fourth_section {
+  padding: 2%;
+  background: rgba(228, 110, 149, 0.164);
+  border-radius: 0.5rem;
+  margin-bottom: 2%;
+}
 @media (min-width: 700px) {
   main {
     margin: 10%;
@@ -29,6 +88,7 @@
     gap: 2%;
     margin-block-start: 5%;
   }
+
   #first_section .col2 {
     display: grid;
     grid-template-columns: 1fr 1.8fr;
@@ -54,11 +114,16 @@
     grid-template-columns: 1fr 1fr;
     gap: 2%;
   }
-
   #fourth_section .col2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2%;
+    gap: 40px;
+  }
+  #fourth_section .col3 {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
   }
 
   #fourth_section .forside {
