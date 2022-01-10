@@ -1,3 +1,4 @@
+/*LINKS*/
 .links {
   display: flex;
   flex-flow: wrap;
@@ -51,6 +52,7 @@
   color: #ffffff;
 }
 
+/*FARVER*/
 #first_section {
   padding: 2%;
   background: rgba(110, 228, 218, 0.164);
@@ -78,6 +80,7 @@
   border-radius: 0.5rem;
   margin-bottom: 2%;
 }
+
 @media (min-width: 700px) {
   main {
     margin: 10%;
