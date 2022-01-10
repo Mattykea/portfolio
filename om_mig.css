@@ -1,3 +1,54 @@
-ul {
+.kontakt li {
   list-style: none;
+}
+img {
+  width: 50%;
+  margin-left: 25%;
+}
+
+#beskrivelse {
+  padding: 2%;
+  background: rgba(228, 110, 149, 0.164);
+  border-radius: 0.5rem;
+  margin-bottom: 2%;
+}
+
+.col1 {
+  padding: 2%;
+  background: rgba(228, 110, 149, 0.164);
+  border-radius: 0.5rem;
+  margin-bottom: 2%;
+  padding-inline: 5%;
+}
+.col2 {
+  padding: 2%;
+  background: rgba(228, 110, 149, 0.164);
+  border-radius: 0.5rem;
+  margin-bottom: 2%;
+  padding-inline: 5%;
+}
+.col3 {
+  padding: 2%;
+  background: rgba(228, 110, 149, 0.164);
+  border-radius: 0.5rem;
+  margin-bottom: 2%;
+  padding-inline: 5%;
+}
+
+@media (min-width: 700px) {
+  #beskrivelse {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2%;
+  }
+  img {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  #lister {
+    display: grid;
+    grid-template-columns: 0.6fr 0.6fr 1fr;
+    gap: 2%;
+  }
 }

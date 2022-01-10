@@ -15,7 +15,8 @@ picture,
 .forside,
 .scrum,
 .tests,
-.eftertanker {
+.eftertanker,
+ul {
   background-color: transparent;
 }
 
