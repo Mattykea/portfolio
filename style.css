@@ -68,6 +68,7 @@ figcaption {
 .logo {
   position: absolute;
   right: 7%;
+  top: 6.5%;
   padding: 1%;
   border-radius: 0.5rem;
 }
@@ -87,7 +88,14 @@ header a {
   color: rgb(255, 255, 255);
 }
 
-@media (max-width: 600px) {
+#forside {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+@media (max-width: 700px) {
   .toggle-btn {
     background: transparent;
     border: none;
@@ -113,5 +121,23 @@ header a {
   nav ul {
     display: flex;
     flex-flow: column;
+  }
+}
+
+@media (min-width: 700px) {
+  #forside {
+    width: 40%;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    top: 10%;
+  }
+}
+
+@media (min-width: 950px) {
+  .logo {
+    font-size: 1.5rem;
+    top: 12%;
   }
 }
